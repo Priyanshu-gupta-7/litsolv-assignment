@@ -1,6 +1,4 @@
-import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import { Button } from "../styles/Button";
 
 const HeroSection = ({ myData }) => {
   const { name } = myData;
@@ -13,14 +11,11 @@ const HeroSection = ({ myData }) => {
             <p className="intro-data">Welcome to </p>
             <h1> {name} </h1>
             <p>
-            Welcome to my ecommerce website! I am thrilled to have you here. This site has been designed as an assignment for LitSolv.
+            Welcome to my ecommerce website! I am thrilled to have you here.
+            This site has been designed as an assignment for LitSolv.
             Happy shopping!
             </p>
-            <NavLink>
-              <Button>show now</Button>
-            </NavLink>
           </div>
-          {/* our homepage image  */}
           <div className="hero-section-image">
             <figure>
               <img
